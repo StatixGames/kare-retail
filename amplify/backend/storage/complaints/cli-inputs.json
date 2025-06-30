@@ -1,0 +1,10 @@
+{
+  "resourceName": "complaints",
+  "tableName": "complaints",
+  "partitionKey": {
+    "fieldName": "complaintId",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

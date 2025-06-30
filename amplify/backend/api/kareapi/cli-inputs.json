@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "paths": {
+    "/complaints": {
+      "name": "/complaints",
+      "lambdaFunction": "getComplaints",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "read"
+        ]
+      }
+    },
+    "/submit": {
+      "name": "/submit",
+      "lambdaFunction": "submitComplaint",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read"
+        ]
+      }
+    },
+    "/getcomplaints": {
+      "name": "/getcomplaints",
+      "lambdaFunction": "getComplaints",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "Effect": "Allow",
+    "Action": [
+      "sns:Publish",
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "Resource": "*"
+  }
+]

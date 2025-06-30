@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "name": "Milk",
+    "category": "Dairy",
+    "description": "1 gallon of whole milk",
+    "price": 3.49
+  },
+  {
+    "id": "2",
+    "name": "Apples",
+    "category": "Produce",
+    "description": "Fresh red apples",
+    "price": 2.99
+  }
+]

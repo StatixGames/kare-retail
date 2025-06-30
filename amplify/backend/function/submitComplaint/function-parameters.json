@@ -1,0 +1,17 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "turnstileSecretKey",
+      "environmentVariableName": "TURNSTILE_SECRET_KEY"
+    }
+  ],
+  "permissions": {
+    "storage": {
+      "complaints": [
+        "create",
+        "read"
+      ]
+    }
+  }
+}
