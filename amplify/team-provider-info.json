@@ -10,7 +10,7 @@
       "StackName": "amplify-kareretail-dev-93940",
       "StackId": "arn:aws:cloudformation:us-east-1:637423194982:stack/amplify-kareretail-dev-93940/3c9c0360-4b36-11f0-8b86-12d7ded3f455",
       "AmplifyAppId": "d2witeq4ib2olt",
-      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-kareretail-dev-93940-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+      "APIGatewayAuthURL": ""{ADD_HERE}""
     },
     "categories": {
       "function": {
@@ -22,8 +22,8 @@
           "deploymentBucketName": "amplify-kareretail-dev-93940-deployment",
           "s3Key": "amplify-builds/getComplaints-54524164783149426667-build.zip"
         },
-        "submitComplaint": {
-          "turnstileSecretKey": "0x4AAAAAABixN-H75KbGZbmP"
+        "{ADD_HERE}": {
+          "turnstileSecretKey": "SITE_KEY"
         }
       },
       "auth": {

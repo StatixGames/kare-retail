@@ -25,7 +25,7 @@ export type AmplifyDependentResourcesAttributes = {
       "Name": "string",
       "Region": "string"
     },
-    "submitComplaint": {
+   "{ADD_HERE}" : {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "Name": "string",

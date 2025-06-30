@@ -62,12 +62,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "submitComplaint",
+            "{ADD_HERE}",
             {
               "Fn::Join": [
                 "",
                 [
-                  "submitComplaint",
+                  "{ADD_HERE}",
                   "-",
                   {
                     "Ref": "env"

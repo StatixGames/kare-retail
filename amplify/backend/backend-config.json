@@ -30,7 +30,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "submitComplaint"
+          "resourceName": "{ADD_HERE}"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -112,7 +112,7 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     },
-    "submitComplaint": {
+    "{ADD_HERE}": {
       "build": true,
       "dependsOn": [
         {
@@ -166,7 +166,7 @@
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "submitComplaint"
+          "resourceName": "{ADD_HERE}"
         }
       ]
     }

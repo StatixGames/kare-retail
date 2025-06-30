@@ -3,7 +3,8 @@ const https = require("https");
 exports.handler = async (event) => {
   const body = JSON.parse(event.body);
   const { name, email, category, product, complaint, turnstileToken } = body;
-  const secret = process.env.TURNSTILE_SECRET_KEY;
+  const secret = process.env.TURNSTILE_SECRET_KEY; // {ADD_HERE}
+
 
   const verifyToken = () =>
     new Promise((resolve, reject) => {

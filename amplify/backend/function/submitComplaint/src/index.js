@@ -42,7 +42,7 @@ exports.handler = async (event) => {
     };
   }
 
-  const secret = process.env.TURNSTILE_SECRET_KEY;
+  const secret = process.env.TURNSTILE_SECRET_KEY; // {ADD_HERE}
   const postData = `secret=${secret}&response=${turnstileToken}`;
 
   const verifyToken = () =>
